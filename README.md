@@ -1,7 +1,7 @@
-# go-go-gadget-paillier
+# go-paillier
 A Go implementation of the partially homomorphic [Paillier Cryptosystem](http://en.wikipedia.org/wiki/Paillier_cryptosystem).
 
-![Inspector Paillier](https://raw.githubusercontent.com/Roasbeef/go-go-gadget-paillier/master/imgs/Inspector-gadget.jpg?token=AA87LnAHpds9_MUKhbsCKXhn-u47CkJ4ks5U6_XvwA%3D%3D "Inspector Paillier")
+![Inspector Paillier](https://raw.githubusercontent.com/BrucesJiang/go-paillier/master/imgs/Inspector-gadget.jpg?token=AA87LnAHpds9_MUKhbsCKXhn-u47CkJ4ks5U6_XvwA%3D%3D "Inspector Paillier")
 
 ## Explanation
 *Homomorphic* cryptosystems are a family of cryptosystems that allow computations to be performed on generated ciphertexts. The general idea is that: within one of these systems, one is able to perform certain computations on a chiper text, which when decrypted reflects those operations on the corresponding plaintext. 
