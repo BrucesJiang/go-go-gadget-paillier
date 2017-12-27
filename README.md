@@ -59,7 +59,7 @@ fmt.Println("Result of 15*10 after decryption: ",
 
 ## Installation
 ```bash
-$ go get github.com/roasbeef/go-go-gadget-paillier
+$ go get github.com/BrucesJiang/go-paillier
 ```
 
 ## Warning
