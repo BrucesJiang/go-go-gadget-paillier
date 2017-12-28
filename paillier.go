@@ -16,12 +16,12 @@ var ErrMessageTooLong = errors.New("paillier: message too long for Paillier publ
 // GenerateKey generates an Paillier keypair of the given bit size using the
 // random source random (for example, crypto/rand.Reader).
 func GenerateKey(random io.Reader, bits int) (*PrivateKey, error) {
-	p, err := rand.Prime(random, bits/2)
+	p, err := rand.Prime(random, bits)
 	if err != nil {
 		return nil, err
 	}
 
-	q, err := rand.Prime(random, bits/2)
+	q, err := rand.Prime(random, bits)
 	if err != nil {
 		return nil, err
 	}
